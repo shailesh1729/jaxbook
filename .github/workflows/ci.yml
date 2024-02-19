@@ -39,7 +39,7 @@ jobs:
           pytest --cov=jaxbook --cov-report=xml
           cat coverage.xml
       - name: "Upload coverage to Codecov"
-        uses: codecov/codecov-action@v4.0.1
+        uses: codecov/codecov-action@v3.1.6
         env:
           token: ${{ secrets.CODECOV_TOKEN }}
           slug: shailesh1729/jaxbook
