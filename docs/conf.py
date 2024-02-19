@@ -17,8 +17,6 @@ import sys
 import sphinx_gallery
 from sphinx_gallery.sorting import ExampleTitleSortKey
 
-
-
 sys.path.insert(0, os.path.join(os.path.abspath(".."), 'src'))
 sys.path.append(os.path.abspath('extensions'))
 
