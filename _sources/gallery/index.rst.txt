@@ -1,9 +1,5 @@
 :orphan:
 
-
-
-.. _sphx_glr_gallery:
-
 .. _gallery:
 
 Examples Gallery
@@ -11,9 +7,15 @@ Examples Gallery
 
 
 
+
 .. raw:: html
 
-    <div class="sphx-glr-clear"></div>
+    <div class="sphx-glr-thumbnails">
+
+
+.. raw:: html
+
+    </div>
 
 
 
