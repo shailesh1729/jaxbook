@@ -41,7 +41,7 @@ setup(
 
     version=__version__,
 
-    description='Iterative algorithms for numerical linear algebra with JAX',
+    description='A JAX-based library for deep learning research and teaching.',
     long_description=long_description,
     long_description_content_type="text/markdown",
 
