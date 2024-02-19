@@ -33,13 +33,16 @@ jobs:
         run: |
           python -m pip install -e .
       - name: Run tests with pytest and generate coverage report
-        run: pytest --cov=jaxbook --cov-report=xml
+        run: |
+          pip install codecov
+          pip install pytest-cov
+          pytest --cov=jaxbook --cov-report=xml
+          cat coverage.xml
       - name: "Upload coverage to Codecov"
         uses: codecov/codecov-action@v4.0.1
         env:
           token: ${{ secrets.CODECOV_TOKEN }}
           slug: shailesh1729/jaxbook
         with:
-          fail_ci_if_error: true
           verbose: true
           
